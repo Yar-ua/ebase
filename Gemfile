@@ -55,3 +55,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'dotenv-rails', groups: [:development, :test]
 gem "aws-sdk-s3", require: false
+
+gem 'bootstrap', '~> 5.0.0.alpha1'
+gem 'jquery-rails'
+gem 'font-awesome-sass', '~> 5.13.0'
+
+gem "haml-rails", "~> 2.0"

@@ -1,0 +1,13 @@
+%p#notice= notice
+%p
+  %strong Type:
+  = @doc.type
+%p
+  %strong Number:
+  = @doc.number
+%p
+  %strong Name:
+  = @doc.name
+= link_to 'Edit', edit_doc_path(@doc)
+|
+= link_to 'Back', docs_path
